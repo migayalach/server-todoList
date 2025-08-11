@@ -1,15 +1,15 @@
-import express, { Express, Request, Response } from "express";
+import server from "./src/server";
+import { LogError, LogSuccess } from "./src/utils";
 import dotenv from "dotenv";
 
 dotenv.config();
 
-const app: Express = express();
-const port: string | number = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
-app.get("/", (request: Request, response: Response) => {
-  response.send("hello");
+server.listen(PORT, () => {
+  LogSuccess(`[SERVER ON]: Running in http://localhost:${PORT}/api`);
 });
 
-app.listen(port, () => {
-  console.log("SERVER IN LINE");
+server.on("ERROR", (error) => {
+  LogError(`[SERVER ERROR]: ${error}`);
 });

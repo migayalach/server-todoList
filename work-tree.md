@@ -1,0 +1,37 @@
+```
+└── 📁server
+    └── 📁__test__
+        └── 📁integration
+            ├── example.spect.ts
+        └── 📁unit
+            ├── example.spect.ts
+    └── 📁mocks
+        ├── people.json
+    └── 📁src
+        └── 📁controllers
+        └── 📁domain
+            └── 📁entities
+            └── 📁orm
+            └── 📁repositories
+        └── 📁middlewares
+            ├── index.ts
+        └── 📁routes
+            ├── index.ts
+        └── 📁server
+            ├── index.ts
+        └── 📁types
+            ├── index.ts
+        └── 📁utils
+            ├── index.ts
+            ├── logger.ts
+    ├── .env
+    ├── .gitignore
+    ├── docker-compose.yml
+    ├── DockerFile
+    ├── index.ts
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    ├── tsoa.json
+    └── webpack.config.js
+```

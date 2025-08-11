@@ -2,6 +2,10 @@
   "name": "server-todo-list",
   "version": "1.0.0",
   "description": "This is a server for the todoList client where it is developed in Node, Express and for the database we use MongoDB.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/migayalach/server-todoList"
+  },
   "keywords": [
     "node",
     "express",
@@ -10,7 +14,7 @@
     "mongoDB"
   ],
   "license": "ISC",
-  "author": "Miguel Ayala Chavez",
+  "author": "CodeReview",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
@@ -29,10 +33,12 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "g": "^2.0.1",
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.17.1",
     "morgan": "^1.10.1",
+    "npm": "^8.6.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
     "tsoa": "^6.6.0"

@@ -1,0 +1,19 @@
+{
+  "name": "server-todo-list",
+  "version": "1.0.0",
+  "description": "This is a server for the todoList client where it is developed in Node, Express and for the database we use MongoDB.",
+  "keywords": [
+    "node",
+    "express",
+    "typescript",
+    "graphql",
+    "mongoDB"
+  ],
+  "license": "ISC",
+  "author": "Miguel Ayala Chavez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,10 +1,6 @@
 ```
 └── 📁server
-    └── 📁__test__
-        └── 📁integration
-            ├── example.spect.ts
-        └── 📁unit
-            ├── example.spect.ts
+    └── 📁github
     └── 📁mocks
         ├── people.json
     └── 📁src
@@ -28,10 +24,14 @@
     ├── .gitignore
     ├── docker-compose.yml
     ├── DockerFile
+    ├── eslint.config.mts
     ├── index.ts
+    ├── jest.config.ts
     ├── package-lock.json
     ├── package.json
     ├── README.md
+    ├── tsconfig.json
     ├── tsoa.json
-    └── webpack.config.js
+    ├── webpack.config.js
+    └── work-tree.md
 ```

@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "u1a2b3c4",
+    "email": "pepito@gmail.com",
+    "fullName": "Pepe Lopez Choque"
+  },
+  {
+    "_id": "u5d6e7f8",
+    "email": "maria.santos@gmail.com",
+    "fullName": "Maria Santos Pérez"
+  },
+  {
+    "_id": "u9g0h1i2",
+    "email": "carlos.mendez@gmail.com",
+    "fullName": "Carlos Méndez Ruiz"
+  },
+  {
+    "_id": "u3j4k5l6",
+    "email": "lucia.rojas@gmail.com",
+    "fullName": "Lucía Rojas Fernández"
+  }
+]

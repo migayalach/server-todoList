@@ -22,7 +22,7 @@ server.use("/api", rootRouter);
 server.use(express.static("public"));
 
 // TODO Mongose connection
-// mongoose.connect("")
+mongoose.connect("mongodb://localhost:27017/todoList");
 
 server.use(helmet());
 server.use(cors());

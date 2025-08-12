@@ -1,5 +1,7 @@
+import express, { Response, Request } from "express";
+import userRouter from "./UserRouter";
+import recordRouter from "./RecordRoute";
 import { LogInfo } from "../utils";
-import express, { Request, Response } from "express";
 
 const server = express();
 
@@ -11,5 +13,7 @@ rootRouter.get("/", (request: Request, response: Response) => {
 });
 
 server.use("/", rootRouter);
+server.use("/user", userRouter);
+server.use("/record", recordRouter);
 
 export default server;

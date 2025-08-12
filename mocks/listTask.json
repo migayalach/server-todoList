@@ -1,0 +1,170 @@
+[
+  {
+    "_id": "u1a2b3c4",
+    "email": "pepito@gmail.com",
+    "fullName": "Pepe Lopez Choque",
+    "list": [
+      {
+        "date": "8/10/2025",
+        "tasks": [
+          { "task": "Clear car", "state": true },
+          { "task": "Study my verbs", "state": true }
+        ]
+      },
+      {
+        "date": "9/10/2025",
+        "tasks": [
+          { "task": "Write about my app", "state": true },
+          { "task": "Review project requirements", "state": false }
+        ]
+      },
+      {
+        "date": "10/10/2025",
+        "tasks": [
+          { "task": "Grocery shopping", "state": false },
+          { "task": "Gym workout", "state": true }
+        ]
+      },
+      {
+        "date": "11/10/2025",
+        "tasks": [
+          { "task": "Fix bike chain", "state": false },
+          { "task": "Read 20 pages of a book", "state": true }
+        ]
+      },
+      {
+        "date": "12/10/2025",
+        "tasks": [
+          { "task": "Meal prep for the week", "state": false },
+          { "task": "Call mom", "state": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "u5d6e7f8",
+    "email": "maria.santos@gmail.com",
+    "fullName": "Maria Santos Pérez",
+    "list": [
+      {
+        "date": "8/10/2025",
+        "tasks": [
+          { "task": "Water plants", "state": true },
+          { "task": "Organize desk", "state": false }
+        ]
+      },
+      {
+        "date": "9/10/2025",
+        "tasks": [
+          { "task": "Send project update email", "state": true },
+          { "task": "Backup files", "state": false }
+        ]
+      },
+      {
+        "date": "10/10/2025",
+        "tasks": [
+          { "task": "Pay electricity bill", "state": true },
+          { "task": "Cook pasta for dinner", "state": true }
+        ]
+      },
+      {
+        "date": "11/10/2025",
+        "tasks": [
+          { "task": "Go jogging", "state": false },
+          { "task": "Finish online course module", "state": true }
+        ]
+      },
+      {
+        "date": "12/10/2025",
+        "tasks": [
+          { "task": "Clean windows", "state": false },
+          { "task": "Update budget spreadsheet", "state": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "u9g0h1i2",
+    "email": "carlos.mendez@gmail.com",
+    "fullName": "Carlos Méndez Ruiz",
+    "list": [
+      {
+        "date": "8/10/2025",
+        "tasks": [
+          { "task": "Check tire pressure", "state": true },
+          { "task": "Buy printer ink", "state": false }
+        ]
+      },
+      {
+        "date": "9/10/2025",
+        "tasks": [
+          { "task": "Plan weekend trip", "state": true },
+          { "task": "Repair kitchen faucet", "state": false }
+        ]
+      },
+      {
+        "date": "10/10/2025",
+        "tasks": [
+          { "task": "Wash clothes", "state": true },
+          { "task": "Watch documentary", "state": true }
+        ]
+      },
+      {
+        "date": "11/10/2025",
+        "tasks": [
+          { "task": "Clean garage", "state": false },
+          { "task": "Write blog post", "state": true }
+        ]
+      },
+      {
+        "date": "12/10/2025",
+        "tasks": [
+          { "task": "Call plumber", "state": false },
+          { "task": "Review insurance policy", "state": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "u3j4k5l6",
+    "email": "lucia.rojas@gmail.com",
+    "fullName": "Lucía Rojas Fernández",
+    "list": [
+      {
+        "date": "8/10/2025",
+        "tasks": [
+          { "task": "Do yoga", "state": true },
+          { "task": "Clean fridge", "state": false }
+        ]
+      },
+      {
+        "date": "9/10/2025",
+        "tasks": [
+          { "task": "Write poem", "state": true },
+          { "task": "Edit photos", "state": false }
+        ]
+      },
+      {
+        "date": "10/10/2025",
+        "tasks": [
+          { "task": "Bake cake", "state": true },
+          { "task": "Watch a movie", "state": true }
+        ]
+      },
+      {
+        "date": "11/10/2025",
+        "tasks": [
+          { "task": "Paint living room wall", "state": false },
+          { "task": "Meditate 15 minutes", "state": true }
+        ]
+      },
+      {
+        "date": "12/10/2025",
+        "tasks": [
+          { "task": "Sort clothes for donation", "state": false },
+          { "task": "Plan weekly meals", "state": true }
+        ]
+      }
+    ]
+  }
+]

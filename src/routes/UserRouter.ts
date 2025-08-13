@@ -1,36 +1,37 @@
 import express, { Request, Response } from "express";
 import { LogInfo } from "../utils";
 import { UserController } from "../controllers/UserController";
-import { verifyToken } from "../middlewares";
 import bodyParser from "body-parser";
 const jsonParser = bodyParser.json();
 
 const userRouter = express.Router();
 
 userRouter
-  .route("/:idUser")
+  .route("/:idFirebase")
   .get(async (request: Request, response: Response) => {
-    const idUser: string = request?.params?.idUser;
-    LogInfo(`Param idUser: ${idUser}`);
+    const idFirebase: string = request?.params?.idFirebase;
+    LogInfo(`Param idUser: ${idFirebase}`);
     const controller: UserController = new UserController();
-    const results: string = await controller.getIdUser(idUser);
-    response.send(results);
+    const results: any = await controller.getIdUser(idFirebase);
+    response
+      .status(results.status)
+      .json({ message: results.message, infomation: results.infomation });
   });
 
 userRouter
   .route("/")
   .post(jsonParser, async (request: Request, response: Response) => {
-    const id = request?.body?.id;
+    const idFirebase = request?.body?.idFirebase;
     const email = request?.body?.email;
     const fullName = request?.body?.fullName;
     LogInfo(`Body Params user`);
     const controller: UserController = new UserController();
-    const results: string = await controller.registerUser({
-      id,
+    const results: any = await controller.registerUser({
+      idFirebase,
       email,
       fullName,
     });
-    response.send(results);
+    response.status(results.status).json({ message: results.message });
   });
 
 export default userRouter;
